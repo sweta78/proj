@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -257,7 +257,7 @@
   <div class="footer">
     <table border="0" align="center" cellpadding="0" cellspacing="0">
       <tbody><tr>
-        <td align="center">Copyright©Rajani Sharma2015 All Right Reserved </td>
+        <td align="center">Copyright©Sweta All Right Reserved </td>
         <td align="right">&nbsp;</td>
         <td align="right"><a href="#" class="white-link">| Disclaimer</a></td>
       </tr>
