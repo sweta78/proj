@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 session_start();
 ob_start();
 ?>
@@ -208,7 +208,7 @@ $rs=mysql_fetch_assoc($smt);
  <div class="footer">
     <table border="0" align="center" cellpadding="0" cellspacing="0">
       <tbody><tr>
-        <td align="center">Copyright©Swati Choudhary 2014 All Right Reserved </td>
+        <td align="center">Copyright©Sweta All Right Reserved </td>
         <td align="right">&nbsp;</td>
         <td align="right"><a href="#" class="white-link">| Disclaimer</a></td>
       </tr>

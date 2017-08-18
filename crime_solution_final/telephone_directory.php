@@ -1,31 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>:: CRIME CONTROL Shanti Sewa Nyaya ::</title>
-<script>
-function showUser(str) {
-  if (str=="") {
-    document.getElementById("txtHint").innerHTML="";
-    return;
-  } 
-  if (window.XMLHttpRequest) {
 
-    xmlhttp=new XMLHttpRequest();
-  } else {
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  xmlhttp.onreadystatechange=function() {
-    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
-    }
-  }
-  xmlhttp.open("GET","telephone_directory_conn.php?q="+str,true);
-  xmlhttp.send();
-}
-</script>
-  
-<!--dropdown script start here-->
+   <!--dropdown script start here-->
 	<script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="flexdropdown.js"></script>
     <link rel="stylesheet" type="text/css" href="flexdropdown.css">
@@ -234,17 +213,7 @@ function showUser(str) {
               <td colspan="2" class="help-line-text-h"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                 <tbody><tr>
                   <td width="50%"> District/Unit: <span>HELPLINE</span></td>
-                  <td align="left">
-       <select name="users" onchange="showUser(this.value)">
-         <option value="select" selected="selected">-Select-</option>
-         <option value="kotwali">kotwali</option>
-         <option value="sadar">sadar</option>
-         <option value="sukhdev nagar">sukhdev nagar</option>
-         <option value="gonda">gonda</option>
-         <option value="hindipiri">hindipiri</option>
-         <option value="kanke">kanke</option>
-      </select>
-                    </td>
+                  
                 </tr>
               </tbody></table></td>
             </tr>
@@ -322,7 +291,7 @@ function showUser(str) {
   <div class="footer">
     <table border="0" align="center" cellpadding="0" cellspacing="0">
       <tbody><tr>
-        <td align="center">Copyright©Rajani Sharma 2015 All Right Reserved </td>
+        <td align="center">Copyright©Sweta All Right Reserved </td>
         <td align="right">&nbsp;</td>
         <td align="right"><a href="#" class="white-link">| Disclaimer</a></td>
       </tr>

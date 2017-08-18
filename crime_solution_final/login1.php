@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 ob_start();
 session_start();
  ?>
@@ -285,7 +285,7 @@ session_start();
   <div class="footer">
     <table border="0" align="center" cellpadding="0" cellspacing="0">
       <tbody><tr>
-        <td align="center">Copyright©Rajani Sharma 2015 All Right Reserved </td>
+        <td align="center">Copyright©Sweta All Right Reserved </td>
         <td align="right">&nbsp;</td>
         <td align="right"><a href="#" class="white-link">| Disclaimer</a></td>
       </tr>
